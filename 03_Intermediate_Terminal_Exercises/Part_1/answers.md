@@ -8,7 +8,7 @@
 
 9. A PID is a unique identifier for each process running on your computer
 
-10. A procees can be terminated using the KILL command preceeded by the PID of the process
+10. A procees can be terminated using the **kill** command (or **kill -9** command for a process that is frozen) preceeded by the PID of the process
 
 11. The kill command terminates a process, while the kill -9 command forcefully terminates a frozen or crashed process. 
 
