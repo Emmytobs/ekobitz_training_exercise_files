@@ -23,5 +23,3 @@ Typing **man rm** shows a full screen terminal interface describing what the **r
 13. A flag is a piece of characters used to pass in an option to a command in order to modify the output of the command
 
 14. Whem the ***rm -rf*** command is used to delete a non-empty folder, the ***-r*** flag *deletes* all files and sub-folders recursively, while the ***-f*** flag deletes read-only files without asking
-
-15. 
