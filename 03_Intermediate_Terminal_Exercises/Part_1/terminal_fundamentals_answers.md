@@ -16,17 +16,17 @@
 
 13. The -B flag when paired with the grep command displays the specified number of lines before the match specified by the grep command.
 
-> Example: grep -B 3 "Nissan" awesome_cars.txt.
+> Example: **grep -B 3 "Nissan" awesome_cars.txt.**
 > This lists the three cars that are placed before the text *Nissan* in the awesome_cars.txt file
 
 14. The -C flag when paired with the grep command displays the specified number of lines around the match specified by the grep command.
 
-> Example: grep -C 3 "Nissan" awesome_cars.txt.
+> Example: **grep -C 3 "Nissan" awesome_cars.txt.**
 > This lists the three cars that are placed before and after the text *Nissan* in the awesome_cars.txt file
 
 15. The -A flag when paired with the grep command displays the specified number of lines after the match specified by the grep command.
 
-> Example: grep -A 3 "Nissan" awesome_cars.txt.
+> Example: **grep -A 3 "Nissan" awesome_cars.txt.**
 > This lists the three cars that are placed after the text *Nissan* in the awesome_cars.txt file
 
 16. The -w flag paired with the grep command displayed a full word search of the specified word appended to the command
