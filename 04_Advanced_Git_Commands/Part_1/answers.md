@@ -15,11 +15,10 @@
 
 4. What kinds of things can you do in interactive mode when rebasing?
 > **With interactive mode rebasing, you can make some major changes to commits in a file (or project) by using special keywords like:**
-> 
-**- pick: which will not make changes to a commit in the commit history, but will go ahead with the commit
-- reword: which will change the commit's message but will still go ahead with the commit
-- edit: which will apply desired changes to a commit
-- squash: which can be used to combine a set of consecutive commits (commits immediately following each other in a commit history) to one commit
-- fixup: which will remove the commit message while performing the same operation as "squash" defined above
-- exec: which will execute the command in a shell
-- drop: which will remove the commit from the commit history**
+>- **pick: which will not make changes to a commit in the commit history, but will go ahead with the commit**
+>- **reword: which will change the commit's message but will still go ahead with the commit**
+>- **edit: which will apply desired changes to a commit**
+>**squash: which can be used to combine a set of consecutive commits (commits immediately following each other in a commit history) to one commit**
+>- **fixup: which will remove the commit message while performing the same operation as "squash" defined above**
+>- **exec: which will execute the command in a shell**
+>- **drop: which will remove the commit from the commit history**
