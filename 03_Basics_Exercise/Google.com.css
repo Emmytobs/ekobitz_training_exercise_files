@@ -53,10 +53,10 @@ main {
 }
 
 .inputContainer {
-    width: 80%;
-    margin: auto;
-    padding: 12px 3px;
-    border: 1px solid #837f7f73;
+    width: 85%;
+    margin: 0px auto 25px;
+    padding: 9px 3px;
+    border: 1px solid #a59f9f73;
     border-radius: 25px;
     display: flex;
     flex-direction: row;
@@ -84,10 +84,10 @@ main {
 }
 
 .btnContainer {
-    width: 45%;
-    margin: 25px auto 12px;
+    width: 100%;
+    margin: 0px auto 12px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .btnContainer > button {
@@ -97,9 +97,46 @@ main {
     cursor: pointer;
     border-width: 0;
     border-radius: 3px;
+    margin: auto 7px;
 }
 
 .btnContainer > button:hover {
     color: black;
     border: 1px solid #8f8d8d;
+}
+
+.googleLang {
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.googleLang a {
+    display: inline-block;
+    margin: auto 3px;
+    /* text-decoration: none; */
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+footer nav.footerLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+
+
+footer nav.footerLinks > * {
+    flex: 1;
+}
+
+footer nav.footerLinks ul {
+    width: 100%;
 }
