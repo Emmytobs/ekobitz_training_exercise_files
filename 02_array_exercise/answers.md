@@ -29,11 +29,11 @@ Starting with `let people = ["Greg", "Mary", "Devon", "James"];`
 
 6. Using a loop, iterate through this array and after console.log-ing "Mary", exit from the loop.
 > ```javascript
-> for(person of people) {
->    if(person == "Mary") {
->       break;         
->   }
->   console.log(person)
+>for(person of people) {
+>  console.log(person)
+>    if(person == "Mary"){
+>        break;
+>    }
 >}
 > ```
 
