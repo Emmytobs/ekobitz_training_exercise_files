@@ -38,7 +38,9 @@ Starting with `let people = ["Greg", "Mary", "Devon", "James"];`
 > ```
 
 7. Write the command to make a copy of the array using slice. The copy should NOT include "Mary" or "Matt".
-> Solution is coming!
+> ```javascript
+> people.slice(0, 3);
+>```
 
 8. Write the command that gives the indexOf where "Mary" is located.
 > ```javascript
@@ -51,7 +53,10 @@ Starting with `let people = ["Greg", "Mary", "Devon", "James"];`
 > ```
 
 10. Redefine the people variable with the value you started with. Using the splice command, remove "Devon" from the array and add "Elizabeth" and "Artie". Your array should look like this when you are done ["Greg", "Mary", "Elizabeth", "Artie", "James"].
-
+> ```javascript
+> let people = ["Greg", "Mary", "Devon", "James"];
+> people.splice(2, 1, "Elizabeth", "Artie");
+> ```
 
 11. Create a new variable called withBob and set it equal to the people array concatenated with the string of "Bob".
 > ```javascript
