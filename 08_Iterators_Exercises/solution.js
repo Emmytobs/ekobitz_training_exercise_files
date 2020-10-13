@@ -97,9 +97,16 @@ function allLanguages() {
 
     const sortedLanguages = languages.sort();
 
+    // sortedLanguages.reduce((acc, currentVal, index) => {
+    //     if(acc == sortedLanguages[index]) {
+    //         sortedLanguages.splice(index, 1)
+    //     }
+    //     return acc; //only works for the first two languages (c#)
+    // })
+
     for(let index = 1; index < sortedLanguages.length; index++) {
-        let acc = sortedLanguages[index - 1];
-        if(acc == sortedLanguages[index]) {
+        let prevLanguage = sortedLanguages[index - 1];
+        if(prevLanguage == sortedLanguages[index]) {
             sortedLanguages.splice(index, 1)
         }
     } 
@@ -111,7 +118,7 @@ function allLanguages() {
 // Write a function called hasFavoriteEditor which returns a boolean if any of the users have the editor passed in
 function hasFavoriteEditor(editor) {
     const hasEditor = users.some(user => user.favoriteEditor == editor)
-    console.log(hasEditor)   
+    console.log(hasEditor)
 }
 // hasFavoriteEditor("Eclipse")
 
@@ -170,4 +177,4 @@ function removeVowels(string) {
     console.log(notAVowel)
 }
 
-removeVowels('amazingly')
+// removeVowels('amazingly')
