@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
     
     const newDiv = document.createElement('div');
     const colouredBoxesContainer = document.querySelector('section');
-    newDiv.className = 'purple';
+    newDiv.className += 'purple';
     colouredBoxesContainer.appendChild(newDiv);
     
 })
