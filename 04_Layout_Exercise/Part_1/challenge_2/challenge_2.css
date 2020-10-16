@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #7cc1d8;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: serif;
+}
+
+#wrap {
+    width: 95%;
+    margin: 0 auto;
+}
+
+ul {
+    width: 50%;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style: none;
+    text-align: center;
+}
+
+ul li::first-letter {
+    font-weight: 700;
+    font-size: 30px;
+}
