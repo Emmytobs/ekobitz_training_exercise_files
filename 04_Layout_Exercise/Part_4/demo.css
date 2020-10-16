@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box
+}
+
+head, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+main {
+    width: 70%;
+    margin: 100px auto 0px;
+}
+
+header {
+    width: 100%;
+    text-align: center;   
+    background: blue;
+    padding: 10px 25px;
+    /* margin: 20px; */
+}
+
+section.flex-container-1,
+section.flex-container-2 {
+    width: 100%;
+    display: flex;
+}
+
+section > * {
+    margin: 20px;
+}
+
+section > div {
+    padding: 100px 25px;
+}
+
+section > .first {
+    background: brown;
+}
+section > .second {
+    background: green;
+}
+section > .third {
+    background: yellow;
+}
+
+section > .fourth {
+    background: aquamarine;
+}
+section > .fifth {
+    background: lawngreen;
+}
+section > .sixth {
+    background: goldenrod;
+}
