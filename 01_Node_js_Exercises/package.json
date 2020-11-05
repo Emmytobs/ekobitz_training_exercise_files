@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Emmytobs/ekobitz_training_exercise_files#readme",
   "dependencies": {
-    "axios": "^0.21.0"
+    "axios": "^0.21.0",
+    "request": "^2.88.2"
   }
 }
