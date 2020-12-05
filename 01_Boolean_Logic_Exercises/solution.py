@@ -8,7 +8,7 @@ print("I am a Computer!")
 if 1 < 2 and 4 > 2:
     print("Math is fun.")
 #5
-nope = Null
+nope = None
 #6
 True and False
 #7
@@ -16,7 +16,7 @@ str_length = len("What's my length?")
 #8
 str_uppercase = "i am shouting".upper()
 #9
-num = int("1000");
+num = int("1000")
 # 10
 string = "real"
 num = 4
@@ -43,4 +43,4 @@ index_of_letter = "apple".find("l")
 # 17
 index_of_letter = "xylophone".find("y")
 # 18
-is_lower_case = `"my_string".islower()`
+is_lower_case = "my_string".islower()
