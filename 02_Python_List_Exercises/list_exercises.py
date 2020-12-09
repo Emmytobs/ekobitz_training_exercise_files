@@ -45,7 +45,7 @@ print(divisible_by_12)
 no_vowels = []
 for letter in "amazing":
     if not bool(letter in ["a", "e", "i", "o", "u"]):
-        no_vowels.append(letter);
+        no_vowels.append(letter)
 print(no_vowels)
 # 10. Generate a list with the value [[0, 1, 2], [0, 1, 2], [0, 1, 2]].
 generated_list = [ *[[0, 1, 2], [0, 1, 2], [0, 1, 2]] ]
